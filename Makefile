@@ -7,6 +7,7 @@ format:
 	black *.py templates/*.html
 lint:
 	# flake8 or pylint
+	pylint --disable=R,C *.py
 test:
 	# test
 deploy:
